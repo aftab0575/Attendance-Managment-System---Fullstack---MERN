@@ -2,7 +2,7 @@
 
 A full-featured **Attendance Management System** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). This platform provides an intuitive interface for students and admins to manage, mark, and monitor attendance efficiently.
 
-🌐 **Live Demo**: [Check it out on Vercel 🚀](https://attendance-management-system-frontend.vercel.app/)
+🌐 **Live Demo**: [Check it out on Vercel 🚀](https://attendance-managment-system-frontend.vercel.app)
 
 ---
 
