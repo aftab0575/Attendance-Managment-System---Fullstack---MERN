@@ -32,6 +32,12 @@ app.use("/uploads", express.static("uploads"));
 //Admin Panel Routes
 app.use("/api/admin", AdminRoutes);
 
+// Default route
+app.get("/", (req, res) => {
+    res.send("🎉 Server is live and running!");
+  });
+  
+
 // Start server
 const PORT = process.env.PORT || 5000;
 
