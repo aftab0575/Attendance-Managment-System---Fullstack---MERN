@@ -5,8 +5,8 @@ attendance-system-backend/.env
 **/node_modules
 
 # Environment files
-**/.env
 
 # Build files
 **/build
 **/dist
+config.bat
