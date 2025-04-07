@@ -147,6 +147,9 @@ const AuthPage = () => {
       <button className="toggle-button" onClick={() => setIsLogin(!isLogin)}>
         {isLogin ? "Switch to Register" : "Switch to Login"}
       </button>
+      <hr/>
+      <div className="developer-credit">Developed by Aftab Bashir</div>
+
     </div>
   );
   
