@@ -1,0 +1,110 @@
+/* General Styles */
+/* General Styles */
+ body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #97d2f0, #d7c4e1); 
+    color: #ffffff; 
+    height: 100vh;
+    margin: 0;
+  } 
+  
+  .auth-container {
+    width: 350px;
+    padding: 20px;
+    margin-left: 550px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+    color: #333333; /* Ensures text within the container is readable */
+  }
+  
+  
+  .auth-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 1.5rem;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .auth-input, .auth-select, .auth-file-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .auth-input:focus, .auth-select:focus, .auth-file-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .auth-button, .toggle-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .auth-button:hover, .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-button:active, .toggle-button:active {
+    transform: scale(0.98);
+  }
+  
+  .toggle-button {
+    margin-top: 15px;
+    background-color: #6c757d;
+  }
+  
+  .toggle-button:hover {
+    background-color: #5a6268;
+  }
+
+  .auth-logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 350px; /* Adjust size as needed */
+    height: auto;
+    animation: logoFadeIn 0.8s ease-in-out;
+  }
+  
+  /* Logo Animation */
+  @keyframes logoFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

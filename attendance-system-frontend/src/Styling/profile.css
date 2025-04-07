@@ -1,0 +1,105 @@
+/* General Container Styling */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  margin: 20px auto;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Profile Header */
+.profile-header {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Picture */
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #97d2f0;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+  transform: scale(1.1);
+}
+
+/* Profile Info Styling */
+.profile-info {
+  width: 100%;
+}
+
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-label {
+  font-weight: bold;
+  color: #34495e;
+  flex-basis: 40%;
+  text-align: left;
+}
+
+.profile-value {
+  flex-basis: 60%;
+  text-align: left;
+  color: #555;
+}
+
+.courses-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.courses-list li {
+  color: #2980b9;
+  margin: 4px 0;
+  animation: slideIn 0.4s ease;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

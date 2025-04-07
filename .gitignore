@@ -1,0 +1,12 @@
+#Env variables
+attendance-system-backend/.env
+
+# Node modules
+**/node_modules
+
+# Environment files
+**/.env
+
+# Build files
+**/build
+**/dist
